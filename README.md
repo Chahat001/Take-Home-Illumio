@@ -13,7 +13,7 @@
 
 # How to run & Test
 
-1. clone the git repo and make ```Illumio``` your current dir
+1. clone the git repo and make ```Take-Home-Illumio``` your current dir
 2. Make sure you have ```Apache Maven 3.6.3``` and ```java version "11.0.23" 2024-04-16 LTS``` installed.
 3. Place the flow logs and lookup csv file to be analyzed in ```src/main/resoruce``` and update the params in ```src/main/org/parser/Main``` accordingly
 4. run ```mvn package``` it will complile the src code and run all the test cases. **Please do not rename or move the current files in ```src/main/resoruce``` or the test cases will be failed and mvn would not compile**
